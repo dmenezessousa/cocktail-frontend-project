@@ -1,0 +1,17 @@
+.movie-div {
+  display: flex;
+  margin-top: 50px;
+}
+.Content_div {
+  width: 300px;
+  height: 600px;
+}
+.main_div {
+  margin-left: 45%;
+}
+
+@media only screen and (max-width: 414px) {
+  .main_div {
+    margin-left: 25%;
+  }
+}
