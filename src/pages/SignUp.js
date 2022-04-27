@@ -29,7 +29,7 @@ function SignUp() {
     async function handleSubmit(e){
         e.preventDefault();
         try{
-            let payload = await AxiosBackend.post("/api/users/create-user",{
+            let payload = await AxiosBackend.post("/users/create-user",{
                 firstName,
                 lastName,
                 userName,
