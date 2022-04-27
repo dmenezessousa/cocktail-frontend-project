@@ -28,7 +28,7 @@ function Signin() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      let payload = await axiosBackend.post("/api/users/login", {
+      let payload = await axiosBackend.post("/users/login", {
         email,
         password,
       });
