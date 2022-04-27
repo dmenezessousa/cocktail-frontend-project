@@ -131,7 +131,7 @@ function SignUp() {
           <button
             className="w-100 btn btn-lg btn-primary"
             style={{
-              backgroundColor: "red",
+              backgroundColor: "Blue",
               color: "#fff",
               borderRadius: 5,
               height: 50,
