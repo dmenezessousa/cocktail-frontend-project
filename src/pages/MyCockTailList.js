@@ -29,7 +29,7 @@ function MyCockTailList() {
   async function handleDelete(cocktailID) {
     try {
       let payload = await AxiosBackend.delete(
-        `/api/users/cocktail/delete-cocktail/${cocktailID}`
+        `/users/cocktail/delete-cocktail/${cocktailID}`
       );
 
       let newFavoriteCocktail = [...cocktailArray];
