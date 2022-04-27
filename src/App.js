@@ -50,7 +50,7 @@ function App() {
           <Route path="/cocktail/:id" element={<PrivateRoute><SingleCocktail /></PrivateRoute> }/>
           <Route path="/sign-up" element={<SignUp />}/>
           <Route path="/sign-in" element={<Signin />}/>
-          <Route path="/profile" element={<Profile />}/>
+          <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>}/>
           <Route path="/cocktailList" element={<MyCockTailList />}/>
           <Route path="/addCocktail" element={<CreateRecipe />}/>
         </Routes>
