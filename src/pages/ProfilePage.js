@@ -53,7 +53,7 @@ function ProfilePage() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      let payload = await AxiosBackend.put("/api/users/update-profile", {
+      let payload = await AxiosBackend.put("/users/update-profile", {
         firstName,
         lastName,
         userName,
