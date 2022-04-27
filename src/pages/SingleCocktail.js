@@ -74,7 +74,7 @@ const SingleCocktail = () => {
 
       async function handleAddToMyFavorites(cocktailDetails){
         try{
-          await axiosBackend.post("/api/users/cocktail/add-cocktail",{
+          await axiosBackend.post("/users/cocktail/add-cocktail",{
             title: cocktailDetails.name,
             cocktailPoster: cocktailDetails.image,
             cocktailID: id,
