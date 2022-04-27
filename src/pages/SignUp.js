@@ -46,6 +46,7 @@ function SignUp() {
                 progress: undefined,
             });
             console.log(payload);
+            navigate("/sign-in")
         }catch(e){
             toast.error("e.response.data.error", {
                 position: "top-center",
