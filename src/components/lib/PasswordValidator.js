@@ -19,7 +19,7 @@ function PasswordValidator() {
                     minSymbol: 1,
                 })
                 ){
-                    setPasswordError("Password is not Strong");
+                    setPasswordError("Password is not Good");
                 }
 
                 if(isStrongPassword(password,{
@@ -30,7 +30,7 @@ function PasswordValidator() {
                     minSymbol: 1,
                 })
                 ){
-                    setPasswordError("Password is Strong");
+                    setPasswordError("Password is Good");
                 }
                 
             }
