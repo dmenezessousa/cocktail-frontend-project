@@ -1,8 +1,8 @@
 import axios from "axios";
-let url = "http://localhost:3001"
+
 
 const axiosBackend = axios.create({
-    baseURL: url,
+    baseURL: process.env.REACT_APP_AXIOS='development' ? 'http://localhost:3000/api': '/api',
     timeout: 50000,
     headers:{
         authorization: `Bearer ${window.localStorage.getItem("jwtToken")}`,
