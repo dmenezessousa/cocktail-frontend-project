@@ -19,7 +19,6 @@ function MyCockTailList() {
     try {
       let payload = await AxiosBackend.get("/users/cocktail/get-all-cocktail");
       setCocktailArray(payload.data.payload);
-      console.log(payload);
       setLoading(false);
     } catch (e) {
       console.log(e.response);
