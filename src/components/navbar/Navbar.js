@@ -39,7 +39,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to={Profile} onClick={() => window.location.reload()}>
+            <Link to={Profile} onClick={() => window.location.reload(false)}>
               {Sign_in}
             </Link>
           </li>
