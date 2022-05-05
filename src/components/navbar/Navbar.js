@@ -35,6 +35,7 @@ const Navbar = () => {
         <ul className="nav-links">
           <li>
             <Link to="/">
+              window.location.reload(false)
               {Home}
             </Link>
           </li>
