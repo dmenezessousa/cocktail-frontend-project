@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div style={{display:"flex"}}>
-          <Link onClick={() => window.location.reload(false)} to="/">
+          <Link  to="/">
             <h2 style={{marginTop: 15}}>DrinksForFun</h2>
           </Link>
           <img style={{height: 50, width: 50, marginTop: 5}} src={logo} alt="cocktail"/>
