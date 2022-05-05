@@ -3,10 +3,9 @@ import CocktailList from '../components/cocktail/CocktailList'
 import SearchForm from '../components/SearchForm'
 
 const Home = () => {
+  window.location.reload(false)
   return (
-   
     <main>
-      window.location.reload(false)
       <SearchForm/>
       <CocktailList/>
     </main>
