@@ -64,7 +64,7 @@ function Signin() {
     }
   }
   return (
-    <div style={{marginTop: "15%"}}className="search-form">
+    <div className="search-form">
       <main className="form-signin">
         <form style={{ marginTop: 150, color: "#FFF" }} onSubmit={handleSubmit}>
           <h1 className="h3 mb-3 fw-normal" style={{ color: "#fff" }}>
