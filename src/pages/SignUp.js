@@ -61,7 +61,7 @@ function SignUp() {
     }
 
     return(
-        <div style={{marginTop: "20%"}}className="search-form">
+        <div className="search-form">
         <form  onSubmit={handleSubmit}>
           <h1  style={{ color: "#fff" }} className="h3 mb-3 fw-normal">Please Sign Up</h1>
           {/* First Name */}
