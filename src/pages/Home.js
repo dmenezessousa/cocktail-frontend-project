@@ -4,7 +4,7 @@ import SearchForm from '../components/SearchForm'
 
 const Home = () => {
   return (
-   window.location.reload(false);
+   window.location.reload(false)
     <main>
       <SearchForm/>
       <CocktailList/>
