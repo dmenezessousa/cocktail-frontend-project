@@ -35,12 +35,11 @@ const Navbar = () => {
         <ul className="nav-links">
           <li>
             <Link to="/">
-              window.location.reload(false)
               {Home}
             </Link>
           </li>
           <li>
-            <Link to={Profile}>
+            <Link to={Profile} onClick={() => window.location.reload()}>
               {Sign_in}
             </Link>
           </li>
